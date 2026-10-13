@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Explicitly ensure batch scripts keep CRLF for Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts must always use LF
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Binary files
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.so binary
