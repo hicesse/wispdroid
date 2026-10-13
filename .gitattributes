@@ -17,3 +17,5 @@ gradlew text eol=lf
 *.webp binary
 *.ico binary
 *.so binary
+
+*
